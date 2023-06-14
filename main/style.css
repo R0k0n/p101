@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url('images/cool-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+
+.logo-link img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: filter 0.3s ease-in-out;
+}
+
+.logo-link:hover img {
+    filter: blur(1px);
+}
+
+.header-links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.header-links a {
+    font-size: 20;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header-links :hover {
+    font-size: 20;
+    color: aqua;
+    text-decoration: none;
+}
+
+.sign {
+    position: absolute;
+    right: 0;
+    top: 0;
+    gap: 30px;
+}
+
+.input-form {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.posts {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+
+.thumb {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+}
+
+.thumb-img {
+    display: inline-block;
+    width: 300px;
+    height: 250px;
+}
+
+.thumb-des {
+    display: inline-block;
+    width: 300px;
+    height: 25px;
+}
+
+.topic-title {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.donate {
+    font-size: x-large;
+    color: #d6745b;
+    text-align: center;
+}
+
+.payment {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 20;
+}
+
+.payport {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
